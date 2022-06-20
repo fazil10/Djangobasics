@@ -8,7 +8,7 @@ def home(request):
     # return HttpResponse("Hello,Lets start new django learning!")
     return render(request,'home.html',{'name':'calculate number app'})
 
-
+#post method used here
 def index(request):
     number1 = int(request.POST['num1'])
     number2 = int(request.POST['num2'])
